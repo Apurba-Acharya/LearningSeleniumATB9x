@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 public class test_07 {
     @Test
     public void selenium01 (){
-        
-        // 2  Do you want to run on Chrome then change to Edge ?
+
         WebDriver driver = new EdgeDriver();
         driver.get("https://google.com");
         System.out.println(driver.getTitle());

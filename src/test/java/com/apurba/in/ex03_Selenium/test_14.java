@@ -9,7 +9,7 @@ public class test_14 {
     @Test
     public void selenium01 () throws Exception {
         WebDriver driver = new EdgeDriver();
-        driver.navigate().to("https://google.com/");
+        driver.get("https://google.com/");
         Thread.sleep(3000);
         //driver.close();
         driver.quit();
