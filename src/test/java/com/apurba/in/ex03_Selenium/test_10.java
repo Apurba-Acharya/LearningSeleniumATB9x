@@ -9,8 +9,7 @@ import org.testng.annotations.Test;
 public class test_10 {
     @Test
     public void selenium01 () throws Exception {
-        
-        // 2  Do you want to run on Chrome then change to Edge ?
+
         WebDriver driver = new EdgeDriver();
         driver.get("https://katalon-demo-cura.herokuapp.com/");
         driver.manage().window().maximize();

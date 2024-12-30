@@ -1,9 +1,7 @@
 package com.apurba.in.ex03_Selenium;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 
@@ -17,8 +15,8 @@ public class test_07 {
         System.out.println(driver.getCurrentUrl());
         System.out.println(driver.getPageSource());
 
+        //To full screen the browser >>
         driver.manage().window().maximize();
 
     }
-
 }
