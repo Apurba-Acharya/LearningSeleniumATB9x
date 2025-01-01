@@ -30,6 +30,9 @@ public class Practice_1 {
 
         Thread.sleep(23000);
 
+        WebElement exp_icon = driver.findElement(By.xpath("//i[@class=\"id-expire-msg-icon\"]"));
+        exp_icon.isDisplayed();
+
         WebElement l1 = driver.findElement(By.xpath("//h5[@class=\"id-card-title\"]"));
         Assert.assertEquals(l1.getText(),"Your free trial has expired");
 
