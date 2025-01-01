@@ -10,8 +10,8 @@ public class test15 {
     public void selenium01 () throws InterruptedException {
         EdgeOptions edgeOptions = new EdgeOptions();
 //        edgeOptions.addArguments("--window-size=400,700");
-//        edgeOptions.addArguments("--start maximized");
-        edgeOptions.addArguments("--headless");
+        edgeOptions.addArguments("--start maximized");
+//        edgeOptions.addArguments("--headless");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://google.com");

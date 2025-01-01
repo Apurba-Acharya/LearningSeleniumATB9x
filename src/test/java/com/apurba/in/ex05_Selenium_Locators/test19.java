@@ -1,4 +1,4 @@
-package com.apurba.in.ex_05_Selenium_Locators;
+package com.apurba.in.ex05_Selenium_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
