@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Practice_2 {
+public class iDrivePractice_2 {
         @Test
         public void new_user_registration() throws InterruptedException {
             WebDriver driver = new EdgeDriver();
@@ -24,17 +24,19 @@ public class Practice_2 {
             WebElement sname = driver.findElement(By.xpath("//input[@name=\"lname\"]"));
             sname.sendKeys("ABC");
             WebElement email = driver.findElement(By.xpath("//input[@id=\"email\"]"));
-            email.sendKeys("ABChho55@abc.com");
+            email.sendKeys("ABuuhho55@abc.com");
             WebElement pass = driver.findElement(By.xpath("//input[@id=\"password\"]"));
             pass.sendKeys("Abc@asd");
             WebElement cn = driver.findElement(By.xpath("//input[@id=\"cname\"]"));
             cn.sendKeys("ABC Enterprise");
             WebElement mo1 = driver.findElement(By.xpath("//div[@class=\"selected-flag dropdown-toggle\"]"));
             mo1.click();
-            WebElement mo2 = driver.findElement(By.xpath("//input[@placeholder=\"Search Country\"]"));
-            mo2.sendKeys("India");
-            WebElement mo3 = driver.findElement(By.xpath("//*[text()=\"India (भारत)\"]"));
-            mo3.click();
+            WebElement mo2 = driver.findElement(By.xpath("//ul[@class=\"country-list\"]/li[101]/span[1]"));
+            mo2.click();
+//            WebElement mo2 = driver.findElement(By.xpath("//input[@placeholder=\"Search Country\"]"));
+//            mo2.sendKeys("India");
+//            WebElement mo3 = driver.findElement(By.xpath("//*[text()=\"India (भारत)\"]"));
+//            mo3.click();
             Thread.sleep(3000);
             WebElement mo4 = driver.findElement(By.xpath("//input[@id=\"telnumSignup\"]"));
             mo4.sendKeys("1236547890");
