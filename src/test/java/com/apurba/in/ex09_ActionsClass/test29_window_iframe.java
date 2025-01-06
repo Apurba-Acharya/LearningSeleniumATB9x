@@ -1,4 +1,4 @@
-package com.apurba.in.Actions_Windows_Iframe;
+package com.apurba.in.ex09_ActionsClass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Set;
 
-public class Actions_Windows_Iframe_P5 {
+public class test29_window_iframe{
     @Test
     public void p5() throws InterruptedException {
 //         EdgeOptions Options = new EdgeOptions();

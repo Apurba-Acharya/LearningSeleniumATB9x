@@ -1,17 +1,14 @@
-package com.apurba.in.Actions_Windows_Iframe;
+package com.apurba.in.ex09_ActionsClass;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class Actions_P2 {
+public class test26_spicejet {
     @Test
     public void test_actions() throws InterruptedException {
         EdgeOptions Options = new EdgeOptions();

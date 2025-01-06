@@ -1,23 +1,18 @@
-package com.apurba.in.Actions_Windows_Iframe;
+package com.apurba.in.ex09_ActionsClass;
 
-import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import java.sql.Driver;
 import java.time.Duration;
-import java.util.List;
 
-public class Actions_P3 {
+public class test27_makemytrip {
     @Test
     public void test_actions() throws InterruptedException {
 //         EdgeOptions Options = new EdgeOptions();

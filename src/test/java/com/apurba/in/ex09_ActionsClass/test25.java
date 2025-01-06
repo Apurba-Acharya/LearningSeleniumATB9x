@@ -1,11 +1,11 @@
-package com.apurba.in.Actions_Windows_Iframe;
+package com.apurba.in.ex09_ActionsClass;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class Actions_P1 {
+public class test25 {
     @Test
     public void test_actions() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
