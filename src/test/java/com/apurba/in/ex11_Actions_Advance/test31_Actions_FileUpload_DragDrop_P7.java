@@ -1,4 +1,4 @@
-package com.apurba.in.ex09_ActionsClass;
+package com.apurba.in.ex11_Actions_Advance;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class Actions_FileUpload_DragDrop_P7 {
+public class test31_Actions_FileUpload_DragDrop_P7 {
     @Test
     public void p7() throws InterruptedException {
 //         EdgeOptions Options = new EdgeOptions();
@@ -23,6 +23,7 @@ public class Actions_FileUpload_DragDrop_P7 {
         String dir = System.getProperty("user.dir");
         System.out.println(dir);
 
+        //file upload >>
         uploadFileInput.sendKeys("C:\\Users\\APURBA ACHARYA\\IdeaProjects\\LearningSeleniumATB9x\\src\\test\\java\\com\\apurba\\in\\Actions_Windows_Iframe\\hello.txt");
         Thread.sleep(3000);
         driver.findElement(By.name("submit")).click();

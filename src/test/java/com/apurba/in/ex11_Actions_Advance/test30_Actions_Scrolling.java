@@ -1,4 +1,4 @@
-package com.apurba.in.ex09_ActionsClass;
+package com.apurba.in.ex11_Actions_Advance;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class Actions_Page_Down_P6 {
+public class test30_Actions_Scrolling {
     @Test
     public void p5() throws InterruptedException {
 //         EdgeOptions Options = new EdgeOptions();

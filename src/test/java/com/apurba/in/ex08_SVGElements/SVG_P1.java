@@ -1,4 +1,4 @@
-package com.apurba.in.SVG_Shadow_DOM;
+package com.apurba.in.ex08_SVGElements;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;

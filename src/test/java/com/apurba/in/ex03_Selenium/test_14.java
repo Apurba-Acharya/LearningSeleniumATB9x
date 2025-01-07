@@ -11,8 +11,8 @@ public class test_14 {
         WebDriver driver = new EdgeDriver();
         driver.get("https://google.com/");
         Thread.sleep(3000);
-        //driver.close();
-        driver.quit();
+        driver.close();
+        //driver.quit();
 
     }
 

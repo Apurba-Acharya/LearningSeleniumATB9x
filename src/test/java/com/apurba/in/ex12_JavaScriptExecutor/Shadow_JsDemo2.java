@@ -1,9 +1,7 @@
-package com.apurba.in.SVG_Shadow_DOM;
+package com.apurba.in.ex12_JavaScriptExecutor;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Shadow_JsDemo2 {
@@ -13,6 +11,8 @@ public class Shadow_JsDemo2 {
         driver.manage().window().maximize();
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
+//        WebElement element = driver.findElement(By.xpath("//h2[normalize-space()='Bottom Modal']"));
+//        js.executeScript("arguments[0].scrollIntoView(true);",element);
         js.executeScript("window.scrollBy(0, 500);");
         String url = js.executeScript("return document.URL;").toString();
         String title = js.executeScript("return document.title;").toString();

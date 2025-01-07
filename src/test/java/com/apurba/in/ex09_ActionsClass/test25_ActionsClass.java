@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class test25 {
+public class test25_ActionsClass {
     @Test
     public void test_actions() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
