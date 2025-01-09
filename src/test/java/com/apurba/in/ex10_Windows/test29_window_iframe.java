@@ -1,4 +1,4 @@
-package com.apurba.in.ex09_ActionsClass;
+package com.apurba.in.ex10_Windows;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

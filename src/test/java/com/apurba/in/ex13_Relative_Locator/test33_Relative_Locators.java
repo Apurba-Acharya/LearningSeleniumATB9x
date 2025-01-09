@@ -1,4 +1,4 @@
-package com.apurba.in.ex09_ActionsClass;
+package com.apurba.in.ex13_Relative_Locator;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
-public class Actions_Relative_Locators_P8 {
+public class test33_Relative_Locators {
     @Test
     public void p7() throws InterruptedException {
 //         EdgeOptions Options = new EdgeOptions();

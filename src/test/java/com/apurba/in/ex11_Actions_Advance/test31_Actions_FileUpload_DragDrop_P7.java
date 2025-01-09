@@ -24,7 +24,7 @@ public class test31_Actions_FileUpload_DragDrop_P7 {
         System.out.println(dir);
 
         //file upload >>
-        uploadFileInput.sendKeys("C:\\Users\\APURBA ACHARYA\\IdeaProjects\\LearningSeleniumATB9x\\src\\test\\java\\com\\apurba\\in\\Actions_Windows_Iframe\\hello.txt");
+        uploadFileInput.sendKeys("C:\\Users\\APU    RBA ACHARYA\\IdeaProjects\\LearningSeleniumATB9x\\src\\test\\java\\com\\apurba\\in\\ex11_Actions_Advance\\example.apk");
         Thread.sleep(3000);
         driver.findElement(By.name("submit")).click();
 
@@ -32,11 +32,10 @@ public class test31_Actions_FileUpload_DragDrop_P7 {
         driver.navigate().to("https://the-internet.herokuapp.com/drag_and_drop");
         driver.manage().window().maximize();
 
-        Actions actions = new Actions(driver);
-
         WebElement from = driver.findElement(By.id("column-a"));
         WebElement to = driver.findElement(By.id("column-b"));
 
+        Actions actions = new Actions(driver);
         actions.dragAndDrop(from,to).perform();
         //Or >>
         //actions.clickAndHold(from).moveToElement(to).release(to).build().perform();

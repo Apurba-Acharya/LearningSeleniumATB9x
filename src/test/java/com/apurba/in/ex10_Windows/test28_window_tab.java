@@ -1,4 +1,4 @@
-package com.apurba.in.ex09_ActionsClass;
+package com.apurba.in.ex10_Windows;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class test28_window {
+public class test28_window_tab {
     @Test
     public void p4() throws InterruptedException {
 //         EdgeOptions Options = new EdgeOptions();

@@ -1,4 +1,4 @@
-package com.apurba.in.ex09_ActionsClass;
+package com.apurba.in.ex13_Relative_Locator;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import static org.openqa.selenium.support.locators.RelativeLocator.with;
 
-public class Actions_Relative_Locators_P9 {
+public class test34_Relative_Locators {
     EdgeDriver driver;
     @BeforeTest
     public void openBrowser() {
