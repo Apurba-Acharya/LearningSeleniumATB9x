@@ -27,10 +27,5 @@ public class test29_window_nested_iframe {
         String Demo = driver.findElement(By.xpath("//h5[normalize-space()='iFrame Demo']")).getText();
         System.out.println(Demo);
         driver.findElement(By.xpath("//input[@type='text']")).sendKeys("ABCDERT");
-
-
-
-
-
     }
 }
