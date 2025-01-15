@@ -16,6 +16,7 @@ public class Selenium_TypesOfAlerts {
         driver.get("https://the-internet.herokuapp.com/javascript_alerts");
         driver.manage().window().maximize();
 
+        //Alert with ok button
         WebElement jsAlert = driver.findElement(By.xpath("//button[@onClick=\"jsAlert()\"]"));
         jsAlert.click();
         Alert alert = driver.switchTo().alert();
@@ -23,6 +24,7 @@ public class Selenium_TypesOfAlerts {
         WebElement result1 = driver.findElement(By.xpath("//p[@id=\"result\"]"));
         Assert.assertEquals(result1.getText(),"You successfully clicked an alert");
 
+        //Alert with ok and cancel button
         WebElement jsConfirm = driver.findElement(By.xpath("//button[@onClick=\"jsConfirm()\"]"));
         jsConfirm.click();
         Alert alert1 = driver.switchTo().alert();
@@ -30,6 +32,7 @@ public class Selenium_TypesOfAlerts {
         WebElement result2 = driver.findElement(By.xpath("//p[@id=\"result\"]"));
         Assert.assertEquals(result2.getText(),"You clicked: Ok");
 
+        //Alert with input comments field and ok button
         WebElement jsPrompt = driver.findElement(By.xpath("//button[@onClick=\"jsPrompt()\"]"));
         jsPrompt.click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
