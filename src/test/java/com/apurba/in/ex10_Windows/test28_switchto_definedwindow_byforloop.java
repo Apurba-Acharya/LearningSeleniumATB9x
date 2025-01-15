@@ -33,6 +33,7 @@ public class test28_switchto_definedwindow_byforloop {
                     driver.findElement(By.xpath("//button[@aria-label=\"Subscribe\"]/yt-touch-feedback-shape/div/div[2]")).click();
                     driver.findElement(By.xpath("//ytd-button-renderer[@id=\"button\"]/yt-button-shape/a/yt-touch-feedback-shape/div/div[2]")).click();
                     Thread.sleep(7000);
+                    driver.close();
                 }
                 driver.switchTo().window(parent);
             }
