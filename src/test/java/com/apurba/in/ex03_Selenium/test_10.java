@@ -20,7 +20,5 @@ public class test_10 {
         } else{
             throw new Exception("not visible");
         }
-
     }
-
 }

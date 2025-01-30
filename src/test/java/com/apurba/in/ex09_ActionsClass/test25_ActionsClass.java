@@ -18,6 +18,5 @@ public class test25_ActionsClass {
         Actions actions = new Actions(driver);
         actions.keyDown(Keys.SHIFT).sendKeys(firstname,"the testing").keyUp(Keys.SHIFT).build().perform();
 
-
     }
 }

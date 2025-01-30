@@ -15,6 +15,7 @@ public class test_04 {
         WebDriver driver = new ChromeDriver();
         driver = new EdgeDriver();// 97% -
         driver = new FirefoxDriver(); // 97% -
+
     }
 
 }

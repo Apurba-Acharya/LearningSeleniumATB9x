@@ -14,7 +14,7 @@ public class Practice_1 {
         EdgeOptions eo = new EdgeOptions();
         eo.addArguments("--start-maximized");
 
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = new EdgeDriver(eo);
         driver.get("https://katalon-demo-cura.herokuapp.com/");
         Thread.sleep(3000);
 

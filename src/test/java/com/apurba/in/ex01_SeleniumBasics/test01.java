@@ -8,6 +8,6 @@ public class test01 {
     public void test_selenium01(){
         EdgeDriver driver = new EdgeDriver();
         driver.get("https://app.vwo.com");
-        System.out.println(driver.getTitle());
+        System.out.println();
     }
 }

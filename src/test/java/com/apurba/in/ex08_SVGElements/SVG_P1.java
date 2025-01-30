@@ -29,8 +29,11 @@ public class SVG_P1 {
         String URL = "https://www.amcharts.com/svg-maps/?map=india";
         driver.get(URL);
         driver.manage().window().maximize();
+
         // local-name() , name()- Xpath (built in)
+        //XPath to navigate: *[local-name() = 'svg']
         // document.querySelectorAll("#login-username"); - JS
+
         List<WebElement> states = driver.findElements(By.xpath("//*[local-name()='svg']/*[local-name()='g'][7]/*[local-name()='g']/*[local-name()='g']/*[local-name()='path']"));
         for (WebElement state : states) {
             System.out.println(state.getAttribute("aria-label"));

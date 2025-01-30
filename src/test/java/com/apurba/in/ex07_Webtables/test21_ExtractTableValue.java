@@ -18,9 +18,9 @@ public class test21_ExtractTableValue {
         WebDriver driver = new ChromeDriver();
         driver.get("https://awesomeqa.com/webtable.html");
         driver.manage().window().maximize();
-        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("")));
 
         String st1 = "//table[@id=\"customers\"]/tbody/tr[";
         String st2 = "]/td[";
