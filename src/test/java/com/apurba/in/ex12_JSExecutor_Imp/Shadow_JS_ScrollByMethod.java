@@ -1,9 +1,7 @@
-package com.apurba.in.ex12_JSExecutor;
+package com.apurba.in.ex12_JSExecutor_Imp;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Shadow_JS_ScrollByMethod {

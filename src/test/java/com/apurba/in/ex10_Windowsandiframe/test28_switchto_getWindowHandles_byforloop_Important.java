@@ -24,7 +24,6 @@ public class test28_switchto_getWindowHandles_byforloop_Important {
 
         Set <String> windows = driver.getWindowHandles();
         for (String w : windows){
-            //System.out.println(s);
             if(!w.equals(parent)){
                 String s = driver.switchTo().window(w).getCurrentUrl();
                 System.out.println(s);

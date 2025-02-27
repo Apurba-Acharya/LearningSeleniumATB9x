@@ -29,7 +29,7 @@ public class test19 {
         checkbox.click();
 
         List <WebElement> buttons = driver.findElements(By.tagName("button"));
-        buttons.get(0).click();
+        buttons.get(0).click();                                                 //Important
 
         //<div
         // class="C($color-red) Fz($font-size-12) Trsp($Op) Trsdu(0.15s) Op(0) invalid-input+Op(1) invalid-reason">

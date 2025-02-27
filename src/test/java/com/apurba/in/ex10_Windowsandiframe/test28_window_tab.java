@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
+import java.sql.SQLOutput;
 import java.util.Set;
 
 public class test28_window_tab {
@@ -29,8 +30,11 @@ public class test28_window_tab {
         System.out.println("window handles: " + windowHandles);
 
         for (String handle : windowHandles){
-            driver.switchTo().window(handle);
-            if(driver.getPageSource().contains("New Window")){
+            String navigate = driver.switchTo().window(handle).getCurrentUrl();
+            System.out.println(navigate);
+            if(navigate.contains("https://the-internet.herokuapp.com/windows/new")){
+                driver.findElements(By.xpath("//h3[normalize-space()='New Window']")).contains("New Window");
+                driver.close();
                 System.out.println("----------Passed!----------");
             }
         }

@@ -18,7 +18,5 @@ public class test_14 {
         Thread.sleep(3000);
         driver.close(); // Error - Invalid session Id
         //driver.quit(); //  Error - Session ID is null
-
-
     }
 }

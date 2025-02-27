@@ -11,16 +11,20 @@ import java.util.Set;
 public class test28_new_window_popup {
     @Test
     public void window_popup_modal() throws InterruptedException {
+        //Options class:
         EdgeOptions Options = new EdgeOptions();
         Options.addArguments("--InPrivate");
+
         WebDriver driver = new EdgeDriver(Options);
         driver.get("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");
 
+        // WindowHandle:
         String parent = driver.getWindowHandle();
         System.out.println("Parent window ID: " + parent);
 
         driver.findElement(By.xpath("//a[normalize-space()='Like us On Facebook']")).click();
 
+        //WindowHandles:
         Set <String> handles = driver.getWindowHandles();
         for (String h : handles){
             System.out.println("Windows ID: " + h);

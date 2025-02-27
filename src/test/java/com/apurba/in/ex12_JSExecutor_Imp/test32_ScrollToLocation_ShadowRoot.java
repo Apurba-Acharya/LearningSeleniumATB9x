@@ -1,4 +1,4 @@
-package com.apurba.in.ex12_JSExecutor;
+package com.apurba.in.ex12_JSExecutor_Imp;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;

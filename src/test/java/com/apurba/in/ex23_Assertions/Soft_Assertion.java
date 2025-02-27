@@ -28,4 +28,4 @@ public class Soft_Assertion {
 
         soft.assertAll(); //Print assertions in console.
     }
-    }
+}

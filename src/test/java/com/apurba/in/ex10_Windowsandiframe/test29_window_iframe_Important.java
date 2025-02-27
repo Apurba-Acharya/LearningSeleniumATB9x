@@ -1,5 +1,6 @@
 package com.apurba.in.ex10_Windowsandiframe;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,12 +12,14 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Set;
 
-public class test29_window_iframe {
+public class test29_window_iframe_Important {
     @Test
     public void p5() throws InterruptedException {
         EdgeOptions Options = new EdgeOptions();
         Options.addArguments("--InPrivate");
-        WebDriver driver = new EdgeDriver();
+
+        WebDriverManager.edgedriver().setup();
+        WebDriver driver = new EdgeDriver(Options);
         driver.get("https://app.vwo.com/#/test/ab/13/heatmaps/1?token=eyJhY2NvdW50X2lkIjo2NjY0MDAsImV4cGVyaW1lbnRfaWQiOjEzLCJjcmVhdGVkX29uIjoxNjcxMjA1MDUwLCJ0eXBlIjoiY2FtcGFpZ24iLCJ2ZXJzaW9uIjoxLCJoYXNoIjoiY2IwNzBiYTc5MDM1MDI2N2QxNTM5MTBhZDE1MGU1YTUiLCJzY29wZSI6IiIsImZybiI6ZmFsc2V9&isHttpsOnly=1");
         driver.manage().window().maximize();
         Thread.sleep(5000);
@@ -41,13 +44,6 @@ public class test29_window_iframe {
                 clickmap.click();
 
             }
-//            if (!handles.equals(parentwindow)){
-//                driver.switchTo().window(handles);
-//                System.out.println("Child: --------- " + driver.getTitle());
-//                driver.switchTo().frame("heatmap-iframe");
-//                WebElement clickmap = driver.findElement(By.xpath("//div[@data-qa=\"liqokuxuba\"]"));
-//                clickmap.click();
-//            }
         }
         driver.switchTo().window(parentwindow);
     }

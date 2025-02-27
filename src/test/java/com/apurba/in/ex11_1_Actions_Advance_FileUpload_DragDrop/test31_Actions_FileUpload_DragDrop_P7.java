@@ -24,7 +24,7 @@ public class test31_Actions_FileUpload_DragDrop_P7 {
         System.out.println("Print the file location directory: " + dir);
 
         //file upload >>
-        uploadFileInput.sendKeys("C:\\Users\\APURBA ACHARYA\\IdeaProjects\\LearningSeleniumATB9x\\src\\test\\java\\com\\apurba\\in\\ex11_Actions_Advance\\example.apk");
+        uploadFileInput.sendKeys("C:\\Users\\APURBA ACHARYA\\IdeaProjects\\LearningSeleniumATB9x\\src\\test\\java\\com\\apurba\\in\\ex11_1_Actions_Advance_FileUpload_DragDrop\\hello.txt");
         Thread.sleep(3000);
         driver.findElement(By.name("submit")).click();
 

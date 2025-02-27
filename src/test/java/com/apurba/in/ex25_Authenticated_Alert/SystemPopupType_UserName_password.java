@@ -1,4 +1,4 @@
-package com.apurba.in.UserName_Password_Handle;
+package com.apurba.in.ex25_Authenticated_Alert;
 
 import org.openqa.selenium.edge.EdgeDriver;
 

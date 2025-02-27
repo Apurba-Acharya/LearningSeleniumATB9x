@@ -11,6 +11,8 @@ public class test_12_Navigation {
 
         WebDriver driver = new EdgeDriver();
         driver.get("https://google.com/");
+
+        //Types of navigation in Selenium:
         driver.navigate().to("htttps://bing.com");
         driver.navigate().back();
         driver.navigate().forward();

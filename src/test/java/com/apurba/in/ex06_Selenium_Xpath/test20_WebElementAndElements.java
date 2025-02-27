@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class test20 {
+public class test20_WebElementAndElements {
     @Test
     public void katalon() throws InterruptedException {
         EdgeOptions eo = new EdgeOptions();

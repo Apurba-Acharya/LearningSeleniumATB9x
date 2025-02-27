@@ -16,6 +16,5 @@ public class test18_Extensions {
         WebDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://youtube.com");
         Thread.sleep(15000);
-        //driver.quit();
     }
 }
