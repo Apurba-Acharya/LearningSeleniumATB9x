@@ -1,4 +1,4 @@
-package com.apurba.in.ex05_Selenium_Locators;
+package com.apurba.in.ex05_XPath_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
-public class test18 {
+public class LinkTextAndPartialLinkText {
     @Test
     public void selenium01 () throws InterruptedException {
         EdgeOptions edgeOptions = new EdgeOptions();
@@ -31,6 +31,6 @@ public class test18 {
         a_tag.click();
 
         Thread.sleep(5000);
-        driver.quit();
+        //driver.quit();
     }
 }

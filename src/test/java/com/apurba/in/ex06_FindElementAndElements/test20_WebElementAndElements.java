@@ -1,4 +1,4 @@
-package com.apurba.in.ex06_Selenium_Xpath;
+package com.apurba.in.ex06_FindElementAndElements;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

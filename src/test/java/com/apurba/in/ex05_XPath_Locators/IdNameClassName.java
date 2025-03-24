@@ -1,4 +1,4 @@
-package com.apurba.in.ex05_Selenium_Locators;
+package com.apurba.in.ex05_XPath_Locators;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class test17 {
+public class IdNameClassName {
     @Test
     public void selenium01 () throws InterruptedException {
         EdgeOptions edgeOptions = new EdgeOptions();
