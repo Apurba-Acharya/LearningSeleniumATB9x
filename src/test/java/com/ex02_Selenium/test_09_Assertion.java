@@ -1,4 +1,4 @@
-package com.ex03_Selenium;
+package com.ex02_Selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
