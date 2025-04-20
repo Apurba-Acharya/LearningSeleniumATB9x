@@ -5,16 +5,18 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
-import java.io.File;
-
-public class test18_Extensions {
+public class P1 {
     @Test
     public void selenium01 () throws InterruptedException {
         EdgeOptions edgeOptions = new EdgeOptions();
-        edgeOptions.addExtensions(new File("src/test/java/com/apurba/in/ex04_Selenium_OptionClass/AdBlock.crx"));
+//        edgeOptions.addArguments("--window-size=400,700");
+        edgeOptions.addArguments("--start maximized");
+//        edgeOptions.addArguments("--headless");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
-        driver.get("https://youtube.com");
-        Thread.sleep(15000);
+        driver.get("https://google.com");
+        Thread.sleep(1000);
+        driver.quit();
+
     }
 }

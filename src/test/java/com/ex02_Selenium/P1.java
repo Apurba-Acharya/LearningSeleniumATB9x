@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 
-public class test_04 {
+public class P1 {
     @Test
     public void selenium01 (){
         WebDriver driver;

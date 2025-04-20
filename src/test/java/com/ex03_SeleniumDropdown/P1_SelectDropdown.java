@@ -29,9 +29,9 @@ public class P1_SelectDropdown {
         List<WebElement>options = drpCountry.getOptions(); //return all the options from the dropdown as a WebElement
         System.out.println("Number of options in a dropdown: " + options.size());
         //Printing options:
-        for(int i=0; i<options.size(); i++){
-            System.out.println("Normal for loop: " + options.get(i).getText());
-        }
+//        for(int i=0; i<options.size(); i++){
+//            System.out.println("Normal for loop: " + options.get(i).getText());
+//        }
         //Enhanced for loop:
         for (WebElement dropOp:options){
             System.out.println("Enhanced for loop: " + dropOp.getText());

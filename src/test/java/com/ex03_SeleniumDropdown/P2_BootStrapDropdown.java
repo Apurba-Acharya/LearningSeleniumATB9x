@@ -26,13 +26,14 @@ public class P2_BootStrapDropdown {
        System.out.println("Number of options: " + options.size());
 
        //Printing options from the dropdown:
-       for(WebElement dropOptions:options){
-           System.out.println(dropOptions.getText());
-       }
+//       for(WebElement dropOptions:options){
+//           System.out.println(dropOptions.getText());
+//       }
 
        //Select multiple options:
         for(WebElement dropOp:options){
-            if (dropOp.getText().equals("C#") || dropOp.getText().equals("jQuery") || dropOp.getText().equals("Oracle")){
+            String drop = dropOp.getText();
+            if (drop.equals("C#") || drop.equals("jQuery") || drop.equals("Oracle")){
                 dropOp.click();
             }
         }

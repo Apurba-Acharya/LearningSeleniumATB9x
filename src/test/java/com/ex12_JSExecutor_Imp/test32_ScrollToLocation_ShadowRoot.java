@@ -18,7 +18,7 @@ public class test32_ScrollToLocation_ShadowRoot {
         JavascriptExecutor js =(JavascriptExecutor)driver;
 
         //scroll to defined location using js
-        WebElement form = driver.findElement(By.xpath("//p[contains(text(),'This is just an example of shadom DOM, this form w')]"));
+        WebElement form = driver.findElement(By.xpath("//p[contains(text(),'This is just an disableFieldHandling of shadom DOM, this form w')]"));
         js.executeScript("arguments[0].scrollIntoView(true);",form);
 
         //handling of shadow root

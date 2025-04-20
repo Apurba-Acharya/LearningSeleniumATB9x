@@ -29,6 +29,11 @@ public class P3_HiddenDropdown {
         System.out.println(dropOptions.size());
         for (WebElement options:dropOptions){
             System.out.println("Enhanced loop: " + options.getText());
+//            String drop = options.getText();
+//            if(drop.equals("QA Lead")){
+//                options.click();
+//                break;
+//            }
         }
     }
 }
