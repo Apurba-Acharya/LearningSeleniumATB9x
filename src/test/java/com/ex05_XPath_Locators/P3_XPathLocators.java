@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class test19_XPathLocators {
+public class P3_XPathLocators {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         driver.get("https://katalon-demo-cura.herokuapp.com/profile.php#login");
@@ -50,14 +50,5 @@ public class test19_XPathLocators {
         driver.navigate().to("https://demoqa.com/webtables");
         String header = driver.findElement(By.xpath("//div[@class='rt-tr-group']//parent::div[@class='rt-tbody']//preceding-sibling::div[@class='rt-thead -header']")).getText();
         System.out.println(header);
-
-
-
-
-
-
-
-
-
     }
 }

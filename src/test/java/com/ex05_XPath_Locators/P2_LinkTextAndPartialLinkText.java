@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
-public class LinkTextAndPartialLinkText {
+public class P2_LinkTextAndPartialLinkText {
     @Test
     public void selenium01 () throws InterruptedException {
         EdgeOptions edgeOptions = new EdgeOptions();

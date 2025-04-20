@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class SVG_P1 {
+public class P1_SVG {
     EdgeDriver driver;
 
     @BeforeTest

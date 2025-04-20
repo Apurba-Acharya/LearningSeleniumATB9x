@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class IdNameClassName {
+public class P1_IdNameClassName {
     @Test
     public void selenium01 () throws InterruptedException {
         EdgeOptions edgeOptions = new EdgeOptions();
