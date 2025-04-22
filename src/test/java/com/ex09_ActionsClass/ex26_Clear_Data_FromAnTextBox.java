@@ -1,4 +1,4 @@
-package com;
+package com.ex09_ActionsClass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
