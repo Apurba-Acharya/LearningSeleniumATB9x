@@ -56,7 +56,14 @@ public class P2_StaticTable {
             }
         }
 
-        //Find total price of all the books:
+        System.out.println("*******************************************************");
 
+        //Find total price of all the books:
+        int total = 0;
+        for (int r=2; r<=ro; r++){
+            String price = driver.findElement(By.cssSelector("table[name='BookTable']>tbody>tr:nth-of-type("+r+")>td:nth-of-type(4)")).getText();
+            total = total+(Integer.parseInt(price));
+        }
+        System.out.println("Total price of the books: " + total);
     }
 }
