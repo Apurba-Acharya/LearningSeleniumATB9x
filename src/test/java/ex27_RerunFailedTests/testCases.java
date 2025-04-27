@@ -16,13 +16,11 @@ public class testCases {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
         System.out.println(driver.getTitle());
     }
-
     @AfterTest
     public void afterTest(){
         driver.quit();
         System.out.println("Testing_AfterTest");
     }
-
     @Test(retryAnalyzer = RerunAulomationScript.class)
     public void testMethod(){
         String title = driver.getTitle();
