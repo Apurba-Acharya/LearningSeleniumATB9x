@@ -13,11 +13,11 @@ public class ex26_Clear_Data_FromAnTextBox {
         WebDriver driver= new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.netflix.com/in/");
-        driver.findElement(By.cssSelector("input[id=':r11:']")).sendKeys("abcde@abcde.gmail.com");
+        driver.findElement(By.cssSelector("input[id=':r13:']")).sendKeys("abcde@abcde.gmail.com");
         Thread.sleep(5000);
 
         Actions actions = new Actions(driver);
-        actions.click(driver.findElement(By.cssSelector("input[id=':r11:']")))
+        actions.click(driver.findElement(By.cssSelector("input[id=':r13:']")))
                 .keyDown(Keys.CONTROL)
                 .sendKeys("a") // Ctrl + a
                 .keyUp(Keys.CONTROL)

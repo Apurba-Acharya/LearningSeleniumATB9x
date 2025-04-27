@@ -50,6 +50,6 @@ public class P1_SVG {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        driver.quit();
+        //driver.quit();
     }
 }
